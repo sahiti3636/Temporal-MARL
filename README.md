@@ -12,6 +12,14 @@ $$G_t^{(k)} = \sum_{l=0}^{k-1} \gamma^l\, r_{t+l} \;+\; \gamma^k \cdot V(s_{t+k}
 
 where the bootstrap value uses the counterfactual baseline of the next state. The study progressively layers on **Soft Actor-Critic (SAC)** entropy regularisation, **twin critics**, **off-policy replay**, and **GRU-based actors** to scale from simple cooperative navigation to StarCraft II micromanagement.
 
+## Project Report
+
+The full write-up — including methodology, experimental setup, results, and analysis — is available here:
+
+📄 **[RL_Final_Project.pdf](./RL_Final_Project.pdf)**
+
+---
+
 ### Environments
 
 | Environment | Library | Task |
