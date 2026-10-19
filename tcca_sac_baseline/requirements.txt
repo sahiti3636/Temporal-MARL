@@ -1,0 +1,5 @@
+torch
+pettingzoo[mpe]
+numpy
+matplotlib
+pandas
